@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  background-color: #F5F5F5;
+}
+
+.eight-ball-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.eight-ball-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-circle {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.inner-circle {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid gray;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 50px 0 50px;
+  border-color: #5b39cc transparent transparent transparent;
+  position: absolute;
+  top: 25%;
+  left: 17%;
+}
+
+.answer {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
